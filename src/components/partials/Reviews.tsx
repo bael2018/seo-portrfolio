@@ -11,7 +11,7 @@ const Reviews = () => {
         return (
             <div id="reviews">
                 <Title title="ОТЗЫВЫ"/>
-                <div className="review-container" style={{ background: "url('/img/reviews.png') center / cover" }}>
+                <div className="review-container" style={{ background: "url('/img/reviews-min.png') center / cover" }}>
                     <div className="review-carousel">
                         <Swiper
                             style={{ height: "auto" }}
