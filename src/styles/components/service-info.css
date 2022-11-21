@@ -1,0 +1,16 @@
+.service-info__title{
+    font-size: 20px;
+    color: #00c3ff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-info__text{
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.service-info__btn{
+    text-align: center;
+}

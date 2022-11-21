@@ -1,0 +1,42 @@
+.about{
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-content{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.about-image{
+  width: 40%;
+  position: relative;
+}
+
+.about-image__wrapper{
+  top: 100px;
+  left: 100px;
+  height: 300px;
+  width: 300px;
+  position: sticky;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about-image__wrapper img{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.about-body{
+  width: 60%;
+}
+
+.about-body div {
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}

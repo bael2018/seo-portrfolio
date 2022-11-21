@@ -1,0 +1,36 @@
+.modal{
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal_active{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-wrapper{
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    padding: 30px 25px;
+    width: 40%;
+}
+
+.modal-wrapper__closer{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    font-size: 23px;
+}

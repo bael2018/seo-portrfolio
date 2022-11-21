@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './components/elements/contactbtn.css';
+@import './components/modal/contactform.css';
+@import './components/elements/title.css';
+@import './components/service-info.css';
+@import './components/services.css';
+@import './components/heading.css';
+@import './components/reviews.css';
+@import './components/modal.css';
+@import './components/about.css';
+@import './components/faq.css';
+@import './navbar..css';
+@import './footer.css';
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
