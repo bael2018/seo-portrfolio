@@ -2,18 +2,18 @@ import { FormEvent, MutableRefObject, useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
-  const form = useRef<MutableRefObject<HTMLFormElement>>()
+  const form = useRef<MutableRefObject<HTMLFormElement | undefined>>()
 
   const contactFormHandler = (e: FormEvent) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_97gzmvi', 'service_97gzmvi', form.current, 'bw2OvHkeOYo2rCYiw')
+    // emailjs.sendForm('service_97gzmvi', 'service_97gzmvi', form.current, 'bw2OvHkeOYo2rCYiw')
   }
 
   return (
     <div className="contact-form">
       <h4>Связаться</h4>
-      <form ref={form} onSubmit={contactFormHandler}>
+      <form onSubmit={contactFormHandler}>
         <label className="contact-form__input">
           <input 
             name='name'
