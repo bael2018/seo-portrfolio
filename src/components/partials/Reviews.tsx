@@ -27,8 +27,8 @@ const Reviews = () => {
                                 <div className="review-content">
                                     <div className="review-content__wrapper">
                                         <FaQuoteRight/>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio eos distinctio omnis laboriosam quam, cum excepturi rem iste voluptatum veritatis dolores et voluptates dolorem porro libero placeat quia commodi.</p>
-                                        <span>Сырги / Nbfit</span>
+                                        <p>Во время работы над этим проектом Султанбек продемонстрировал высокую квалификацию. Он провел анализ нашего сайта, затем реализовал этапы доработки. Выполнил внутреннюю и внешнюю оптимизацию нашей платформы и линкбилдинг. Положительные результаты показали себя через короткое время.</p>
+                                        <span>Меерим Т / CEO (Исполнительный директор)</span>
                                     </div>
                                 </div>
                             </SwiperSlide>

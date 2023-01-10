@@ -1,11 +1,18 @@
 #clients{
-  background: rgb(241, 241, 241);
+  background: rgba(241, 241, 241, 0.5);
   padding: 50px 0;
 }
 
 .main-carousel{
   width: 80%;
   margin: 0 auto;
+}
+
+
+@media screen and (max-width: 900px) {
+  .main-carousel{
+    width: 95%;
+  }
 }
 
 .carousel-image{
@@ -16,11 +23,14 @@
   justify-content: space-around;
 }
 
-.carousel-image div{
+.carousel-image img{
+  width: 170px;
+  height: 130px;
+}
+
+.carousel-image .active{
   width: 200px;
-  height: 200px;
-  background: black;
-  border-radius: 50%;
+  height: 70px;
 }
 
 .swiper-button-next:after,

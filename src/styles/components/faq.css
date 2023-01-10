@@ -9,6 +9,12 @@
     margin-top: 40px;
 }
 
+@media screen and (max-width: 1150px) {
+    .faq-wrapper{
+        width: 90%;
+    }
+}
+
 .faq-wrapper__child{
     width: 100%;
     height: 80px;
@@ -50,4 +56,25 @@
     color: black;
     margin: 0 auto;
     border-top: 1px solid #000;
+}
+
+@media screen and (max-width: 700px) {
+    .faq-wrapper__child{
+        height: 110px;
+    }
+
+    .faq-wrapper__child h4{
+        font-size: 16px;
+        height: 110px;
+        width: 95%;
+    }
+
+    .faq-wrapper__child div{
+        font-size: 15px;
+    }
+
+    .faq-wrapper__child_active{
+        height: auto;
+    }
+    
 }

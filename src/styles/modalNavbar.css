@@ -1,0 +1,66 @@
+.modal-navbar{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+  pointer-events: none;
+}
+
+.active-navbar{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-navbar__wrapper{
+  width: 90%;
+  height: 100%;
+  background: black;
+  position: relative;
+  transition: .3s;
+  left: -90%;
+}
+
+.active-navbar .modal-navbar__wrapper{
+  left: 0;
+}
+
+.modal-navbar__wrapper ul{
+  margin: 0;
+  padding: 0;
+  height: 90%;
+}
+
+.modal-navbar__wrapper span{
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+
+
+.modal-navbar__wrapper ul li{
+  height: 16.65%;
+  border-bottom: 1px solid #fff;
+}
+
+.modal-navbar__wrapper ul li a{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 100%;
+  width: 100%;
+}
+
+.modal_activeLink{
+  background: #00c3ff;
+}

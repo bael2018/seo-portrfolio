@@ -1,5 +1,5 @@
 import { ServicesContext } from "../../context/servicesContext"
-import { FC, useContext } from "react"
+import { useContext } from "react"
 
 const ContactBtn = ({ isInside }: { isInside: boolean }) => {
   const servicesModal = useContext(ServicesContext)

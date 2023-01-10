@@ -32,6 +32,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 1000px) {
+  .review-carousel{
+    width: 95%;
+  }
+}
+
 .review-content{
   width: 100%;
   display: flex;
@@ -58,4 +64,20 @@
   font-size: 18px;
   color: #fff;
   font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .review-content__wrapper p{
+    font-size: 15px;
+  }
+
+  .review-content__wrapper span{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .review-container{
+    height: 450px;
+  }
 }

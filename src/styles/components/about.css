@@ -7,6 +7,7 @@
   display: flex;
   margin-top: 50px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .about-image{
@@ -33,10 +34,92 @@
 
 .about-body{
   width: 60%;
+  padding-right: 30px;
 }
 
 .about-body div {
   padding-right: 30px;
   margin-bottom: 20px;
+}
+
+.about-info{
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.about-body div h3{
+  margin: 0 0 0 0;
+  padding-left: 40px;
+  position: relative;
+}
+
+.about-body div h3::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 49%;
+  height: 2%;
+  width: 30px;
+  background: black;
+}
+
+.about-info p{
+  margin: 15px 0 0 0;
   line-height: 1.6;
+  font-size: 18px;
+}
+
+.about-certificates div{
+  display: flex;
+  align-items: center;
+}
+
+.about-certificates div img{
+  width: 200px;
+}
+
+.about-certificates div img:nth-child(2){
+  width: 320px;
+}
+
+.about-education div img{
+  width: 120px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .about-image__wrapper{
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .about-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .about-body{
+    width: 100%;
+    padding-right: 0px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-certificates div{
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-certificates div img{
+    width: 240px;
+  }
+
+  .about-certificates div img:nth-child(2){
+    width: 320px;
+  }
 }

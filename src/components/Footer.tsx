@@ -9,24 +9,28 @@ const Footer = () => {
             <h4>Контакты</h4>
             <div>
                 <a 
+                    rel="noreferrer"
                     target='_blank' 
                     href="https://www.linkedin.com/in/sultanbek-temirbaev-9a87691a8/"
                     >
                     <AiFillLinkedin/> LinkedIn
                 </a>
                 <a 
+                    rel="noreferrer"
                     target='_blank' 
                     href="https://www.instagram.com/sultanbek_temirbaev/"
                     >
                     <BsInstagram/> Instagram
                 </a>
                 <a 
+                    rel="noreferrer"
                     target='_blank' 
                     href="https://telegram.me/sltemirbaev/"
                     >
                     <FaTelegramPlane/> Telegram
                 </a>
                 <a 
+                    rel="noreferrer"
                     target='_blank' 
                     href="mailto:slt.tmrb@gmail.com"
                     >

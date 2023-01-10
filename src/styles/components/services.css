@@ -11,6 +11,12 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1150px) {
+    .services-container{
+        width: 90%;
+    }
+}
+
 .services-container__child{
     width: 48%;
     height: 60px;
@@ -34,4 +40,10 @@
 
 .services-container__child:active{
     transform: scale(1);
+}
+
+@media screen and (max-width: 600px) {
+    .services-container__child{
+        width: 100%;
+    }
 }

@@ -1,6 +1,6 @@
 import { faqState } from "../../constants"
-import { useState } from "react"
 import Title from "../elements/Title"
+import { useState } from "react"
 
 const Faq = () => {
     const [active, setActive] = useState(0)
@@ -9,7 +9,7 @@ const Faq = () => {
         <div id="faq">
             <Title title="FAQ"/>
             <div className="faq-wrapper">
-                {faqState.map(({ title, id }) => (
+                {faqState.map(({ title, id, content }) => (
                     <div 
                         onClick={() => setActive(id === active ? 0 : id)} 
                         key={id} 
@@ -17,7 +17,7 @@ const Faq = () => {
                     >
                         <h4>{title}</h4>
                         <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloremque obcaecati placeat dolore quaerat dolorum tenetur nihil reiciendis id vel! Quia non ducimus consequatur voluptas possimus molestiae facilis molestias ad.
+                            {content}
                         </div>
                     </div>
                 ))}

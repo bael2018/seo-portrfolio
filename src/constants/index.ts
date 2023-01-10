@@ -1,40 +1,49 @@
 interface IFaq {
     id: number,
-    title: string
+    title: string,
+    content: string
 }
 
 export const faqState: IFaq[] = [
     {
         id: 1,
-        title: 'Когда мой сайт будет в ТОПЕ?'
+        title: 'Когда мой сайт будет в ТОПЕ?',
+        content: 'Ваш сайт окажется в Топ 10 после того, как поисковая система высоко оценит его качество. Моя задача — сделать ваш ресурс лучше конкурентов и вывести его в ТОП 10, чтобы получить больше трафика.'
     },
     {
         id: 2,
-        title: 'Когда будут первые результаты?'
+        title: 'Когда будут первые результаты?',
+        content: 'Обычно первые заметные результаты можно наблюдать по истечении 3-4 месяцев работы над сайтом.'
     },
     {
         id: 3,
-        title: 'Есть ли у вас опыт работы с нашей тематикой?'
+        title: 'Есть ли у вас опыт работы с нашей тематикой?',
+        content: 'Вне зависимости от тематики вашего сайта, работа по его SEO продвижению практически ничем не отличается от работы с сайтами других нишевых тематик.'
     },
     {
         id: 4,
-        title: 'Что будет с моим сайтом после того, как вы закончите с ним работать?'
+        title: 'Что будет с моим сайтом после того, как вы закончите с ним работать?',
+        content: "Эффект от используемых мной методов продвижения долгосрочный. Ваш сайт будет оставаться на выгодных позициях поисковой выдачи не менее года, пока в выдаче по появятся несколько сильных конкурентов."
     },
     {
         id: 5,
-        title: 'Что будет в случае невыполнения гарантий в срок?'
+        title: 'Что будет в случае невыполнения гарантий в срок?',
+        content: 'Мне дорога моя репутация честного человека, знающего свою работу. Поэтому я буду бесплатно работать над сайтом, пока нужные показатели не будут достигнуты.'
     },
     {
         id: 6,
-        title: 'Повысятся ли у меня продажи и количество звонков?'
+        title: 'Повысятся ли у меня продажи и количество звонков?',
+        content: 'К сожалению, я могу только привлечь на ваш сайт посетителей. Станут ли они совершать покупки или воспользуются вашими услугами, зависит от качества и цены.'
     },
     {
         id: 7,
-        title: 'Почему вы берете 100%-предоплату? Ведь работа должна оплачиваться после ее выполнения. Разве нет?'
+        title: 'Почему вы берете 100%-предоплату? Ведь работа должна оплачиваться после ее выполнения. Разве нет?',
+        content: 'Оплата SEO-продвижения осуществляется в рамках рекламного бюджета, как и размещении рекламы. В стоимости услуг учтена оплата различных сервисов, работы программистов, контент-менеджеров и копирайтеров.'
     },
     {
         id: 8,
-        title: 'Я уже работаю со своим программистом/контент-менеджером. Что делать?'
+        title: 'Я уже работаю со своим программистом/контент-менеджером. Что делать?',
+        content: 'Отлично! В таком случае ваш бюджет для работы со мной будет снижен.'
     }
 ]
 
@@ -86,32 +95,37 @@ export interface IServices {
 export const servicesList: IServices[] = [
     {
         id: 1,
-        title: 'Техническое SEO',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'Семантическое ядро',
+        content: 'Поиск актуальных ключеквых слов, написание заголовков и текстов.'
     },
     {
         id: 2,
-        title: 'Постройка ссылочной массы',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'Техническое SEO',
+        content: 'Работы над скоростью сайта, через ресурсы блокирующие рендер, оптимизацию медиа ресурсов (картинки, видео).'
     },
     {
         id: 3,
-        title: 'PPC - платное продвижение',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'Ссылочная масса',
+        content: 'Подготовка стратейгий по легальному привлечению ссылочной массы на сайт.'
     },
     {
         id: 4,
-        title: 'CRO (conversion rate optimization) - UX/UI',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'PPC',
+        content: 'Платное продвижение через Гугл рекламу на поисковике и на сайтах партнерах.'
     },
     {
         id: 5,
-        title: 'ASO (app store optimization)',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'CRO',
+        content: 'Оптизимация сайте для успешной конвертации. Работа над навигацией и для удобной реализации варонки продаж. '
     },
     {
         id: 6,
-        title: 'Content (написание SEO контента)',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eius nihil laboriosam sit, placeat dolor aut. Necessitatibus, ratione fugit id culpa quo laborum! Laudantium, veniam. Placeat laboriosam iure cupiditate molestias!'
+        title: 'ASO',
+        content: 'Оптимизация вашего приложения в AppStore / PlayMarket через платные и бесплатные методы.'
+    },
+    {
+        id: 7,
+        title: 'SEO контент',
+        content: 'Анализ конкурентов для идей по написанию контента, подготовка тем по ключевым словам. '
     }
 ]

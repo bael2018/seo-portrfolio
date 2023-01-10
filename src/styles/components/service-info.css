@@ -14,3 +14,8 @@
 .service-info__btn{
     text-align: center;
 }
+@media screen and (max-width: 1150px) {
+    .services-container{
+        width: 90%;
+    }
+}

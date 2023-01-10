@@ -1,7 +1,7 @@
-import { useContext } from "react"
-import { servicesList } from "../../constants"
 import { ServicesContext } from "../../context/servicesContext"
+import { servicesList } from "../../constants"
 import Title from "../elements/Title"
+import { useContext } from "react"
 
 const Services = () => {
   const servicesModal = useContext(ServicesContext)

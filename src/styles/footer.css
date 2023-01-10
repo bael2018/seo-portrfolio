@@ -19,6 +19,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-wrapper div{
@@ -43,4 +44,42 @@
 
 .footer-wrapper div a:hover{
     color: #00c3ff;
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 40px;
+    }
+
+    .footer-wrapper h4{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-wrapper div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-wrapper div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-wrapper div a{
+        margin: 10px 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-wrapper div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-wrapper div a{
+        margin: 10px 0;
+    }
 }

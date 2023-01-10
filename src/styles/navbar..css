@@ -46,3 +46,30 @@
   width: 100% !important;
   left: 0 !important;
 }
+
+.navbar-burger{
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  margin-left: 20px;
+}
+
+.navbar-burger span{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  height: 3px;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar ul{
+    display: none;
+  }
+
+  .navbar-burger{
+    display: flex;
+  }
+}
