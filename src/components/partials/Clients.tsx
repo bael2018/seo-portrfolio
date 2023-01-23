@@ -59,7 +59,9 @@ const Clients = () => {
                         {carouselImageData.map(item => (
                             <SwiperSlide key={item.id}>
                                 <div className="carousel-image">
-                                    <img className={item.active ? 'active' : ''} src={item.img} alt="carousel-pic" />
+                                    <div className="carousel-image-content">
+                                        <img className={item.active ? 'active' : ''} src={item.img} alt="carousel-pic" />
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         ))}

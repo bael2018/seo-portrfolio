@@ -3,6 +3,7 @@
 @import './components/modal/contactform.css';
 @import './components/elements/title.css';
 @import './components/service-info.css';
+@import './components/contactMe.css';
 @import './components/services.css';
 @import './components/heading.css';
 @import './components/reviews.css';
@@ -12,6 +13,10 @@
 @import './modalNavbar.css';
 @import './navbar..css';
 @import './footer.css';
+
+:root {
+  --main-color: #4b3333;
+}
 
 *{
   font-family: 'Montserrat', sans-serif;

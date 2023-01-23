@@ -19,7 +19,7 @@
 .modal-navbar__wrapper{
   width: 90%;
   height: 100%;
-  background: black;
+  background: var(--main-color);
   position: relative;
   transition: .3s;
   left: -90%;
@@ -62,5 +62,9 @@
 }
 
 .modal_activeLink{
-  background: #00c3ff;
+  background: #fff;
+}
+
+.modal_activeLink a{
+  color: var(--main-color) !important;
 }

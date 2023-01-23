@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: black;
+  background: var(--main-color);
   padding: 15px 0;
   box-shadow: 0px 0px 1px 1px white;
   z-index: 2;
@@ -35,11 +35,7 @@
   bottom: -4px;
   transition: .3s;
   height: 1px;
-  background-color: #00c3ff;
-}
-
-.navbar_activeLink{
-  color: #00c3ff !important;
+  background-color: #fff;
 }
 
 .navbar_activeLink::before{

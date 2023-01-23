@@ -1,8 +1,7 @@
 .btn{
   padding: 15px 40px;
   font-weight: 600;
-  margin-top: 20px;
-  background: #000;
+  background: var(--main-color);
   color: #fff;
   outline: none;
   border: none;
@@ -11,6 +10,9 @@
   transition: .3s;
 }
 
-.btn:hover{
-  background: #00c3ff;
+@media screen and (max-width: 600px) {
+  .btn{
+    padding: 12px 30px;
+    font-size: 13px;
+  }
 }

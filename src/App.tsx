@@ -1,4 +1,5 @@
 import { ServicesContext } from './context/servicesContext';
+import ContactMe from './components/partials/ContactMe';
 import Services from './components/partials/Services';
 import Clients from './components/partials/Clients';
 import ModalNavbar from './components/ModalNavbar';
@@ -36,11 +37,12 @@ function App() {
       <Modal/>
       <Navbar/>
       <Heading/>
-      <About/>
       <Clients/>
       <Reviews/>
       <Services/>
+      <About/>
       <Faq/>
+      <ContactMe/>
       <Footer/>
     </ServicesContext.Provider>
   );

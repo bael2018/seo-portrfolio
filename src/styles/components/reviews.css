@@ -13,7 +13,7 @@
 
 .review-container .swiper-button-next:after,
 .review-container .swiper-button-prev:after {
-  color: #00c3ff;
+  color: #fff;
 }
 
 .review-container::before{
@@ -50,9 +50,10 @@
   text-align: center;
 }
 
-.review-content__wrapper svg{
-  color: #00c3ff;
-  font-size: 30px;
+.review-content__wrapper img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .review-content__wrapper p{

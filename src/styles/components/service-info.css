@@ -1,6 +1,6 @@
 .service-info__title{
     font-size: 20px;
-    color: #00c3ff;
+    color: var(--main-color);
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -13,7 +13,9 @@
 
 .service-info__btn{
     text-align: center;
+    margin-top: 30px;
 }
+
 @media screen and (max-width: 1150px) {
     .services-container{
         width: 90%;

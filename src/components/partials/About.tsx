@@ -21,6 +21,7 @@ const About = () => {
           <div className="about-certificates">
             <h3>Сертификаты</h3>
             <div>
+              <img src="/img/certificate-three.png" alt="certificate" />
               <img src="/img/certificate-two.png" alt="certificate" />
               <img src="/img/certificate-one.png" alt="certificate" />
             </div>
@@ -29,6 +30,7 @@ const About = () => {
             <h3>Образование</h3>
             <div>
               <img src="/img/education.png" alt="certificate" />
+              <img src="/img/education-2.png" alt="certificate" />
             </div>
           </div>
         </div>

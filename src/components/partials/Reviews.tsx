@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 import "../../styles/components/reviews.css";
-import { FaQuoteRight } from 'react-icons/fa'
 import Title from "../elements/Title";
 import "swiper/css/navigation";
 
@@ -26,8 +25,8 @@ const Reviews = () => {
                             <SwiperSlide>
                                 <div className="review-content">
                                     <div className="review-content__wrapper">
-                                        <FaQuoteRight/>
-                                        <p>Во время работы над этим проектом Султанбек продемонстрировал высокую квалификацию. Он провел анализ нашего сайта, затем реализовал этапы доработки. Выполнил внутреннюю и внешнюю оптимизацию нашей платформы и линкбилдинг. Положительные результаты показали себя через короткое время.</p>
+                                        <img src="img/review-user.png" alt="review-user" />
+                                        <p>"Во время работы над этим проектом Султанбек продемонстрировал высокую квалификацию. Он провел анализ нашего сайта, затем реализовал этапы доработки. Выполнил внутреннюю и внешнюю оптимизацию нашей платформы и линкбилдинг. Положительные результаты показали себя через короткое время."</p>
                                         <span>Меерим Т / CEO (Исполнительный директор)</span>
                                     </div>
                                 </div>

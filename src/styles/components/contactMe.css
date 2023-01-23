@@ -1,0 +1,32 @@
+.contact-me{
+  margin-top: 70px;
+  padding: 30px 0;
+  background: #f1f1f180;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me__wrapper{
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-me__wrapper h3{
+  margin: 0;
+  color: var(--main-color);
+  font-size: 23px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-me__wrapper{
+    width: 90%;
+    flex-direction: column;
+  }
+  
+  .contact-me__wrapper h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
